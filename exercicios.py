@@ -1,28 +1,16 @@
 # #### Inteiros (`int`)
+import math
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
-valor1 = int(input("Digite a sua nota de 0 a 10?"))
-valor2 = int(input("Digite a sua idade?"))
-print(valor1 + valor2)
-
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
-valor1 = int(input("Digite a sua nota para o atendimento de 0 a 5?"))
-print(valor1 % 5)
-
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
-valor1 = int(input("Digite a sua bonificação?"))
-valor2 = int(input("Digite a seu salario?"))
-print(valor1 * valor2)
-
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
-valor1 = int(input("Digite quantas horas realizou de atividade fisica?"))
-valor2 = int(input("Digite quantos anos tem de experiencia?"))
-resultado = (valor1 // valor2)
-print(resultado)
-
-
-
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+
+raio_do_circulo = float(input("Digite o raio: "))
+area_do_circulo = math.pi * raio_do_circulo ** 2
+print(f"{area_do_circulo:.2f}")
+
 
 # #### Números de Ponto Flutuante (`float`)
 
